@@ -36,7 +36,9 @@ Quanto mais tempo o programa rodar, mais imagens ele vai abrir.
 ## Atenção :warning:
 Tudo o que o programa faz pode ser revertido sem precisar de nenhum segredo ou qualquer habilidade de _um grande mago que anda pra cima e para baixo com seus pergaminhos_, tudo o que você precisa saber é como fechar janelas e como abrir o gerenciador de tarefas para encerrar o programa.
 
-<mark>**Mesmo que o programa seja inofensivo, eu não me responsabilizo por qualquer danos causados ao seu computador ou de outras pessoas.**</mark>
+
+> [!WARNING]
+> <mark>**Mesmo que o programa seja inofensivo, eu não me responsabilizo por qualquer danos causados ao seu computador ou de outras pessoas.**</mark>
 
 E caso você não saiba como usar o Gerenciador de Tarefas para encerrar um programa, tudo bem, eu te ensino abaixo como fazer isso, passo a passo [clicando aqui](#como-fechar-o-jonklerexe-x-hocho).
 
