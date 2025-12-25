@@ -73,5 +73,6 @@ Agradeço profundamente aos meus amigos que testaram o meu código na máquina d
 - [davi-goncalves](https://github.com/Davi-Gon)
 - [heittorknielingm](https://github.com/heittorknielingm)
 - [Zathexko](https://steamcommunity.com/id/Andrezat) <- Steam
+- [pudimlucasd](https://steamcommunity.com/profiles/76561199074291946) <- Steam
 
 _FR!_
