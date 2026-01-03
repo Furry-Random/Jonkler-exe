@@ -1,9 +1,6 @@
 #eu estou usando uma biblioteca chamada "Pyinstaller", elas serve pra compilar um código em Python e gerar um executável que pode ser executado em qualquer máquina, como eu estou usando o Windows para programar, então ele gera um .exe, mas junto com isso ele gera alguns outros arquivos, que não sei o que é, mas vou ignora-los nesse arquivo
 *.spec
 
-#1° versão do arquivo readme, fiz em uma madrugada sem sono, ficou muito ruim, mas usarei trechos para contruir o novo readme
-readmeV1.txt
-
 #pasta do pyinstaller, ele gera essa pasta, mas não sei o que ela faz
 build/
 
@@ -17,3 +14,6 @@ dist/
 
 #arquivo de workspace do vscode
 *.code-workspace
+
+#todo vilão precisa de um herói (e vice-versa), mas ele ainda não está pronto...
+Batman.ps1

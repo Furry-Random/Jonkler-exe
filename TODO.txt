@@ -1,0 +1,11 @@
+TODO:
+
+- Arrumar a frequência dele, eu quero que ele seja mais surpreendente (demorado), ou louco (rápido demais)?
+
+- Faça mais testes com o software, pra ver a execução, se abre os arquivos bonitinhos e se o Batman.ps1
+  consegue operar dboa, peça pros seus amigos executarem
+
+- Revisar e alterar o README.md, ensinando o usuário a executar o batman e arrumando vários detalhes, como
+  o Dowload e tals
+
+- Gerar o Dowload.zip pra galera, inclua o Batman.ps1 também
