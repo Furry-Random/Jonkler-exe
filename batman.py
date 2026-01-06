@@ -19,7 +19,7 @@ except subprocess.CalledProcessError as e:
     #caso o "jonkler.exe" não esteja aberto ou o "Batman.exe" tenha dado um erro, (por sei lá o motivo)
     print(f"Ou o {jonkler} não está aberto ou ocorreu um erro, em caso de dúvidas, siga as instruções do README para procurar e fechar o jonkler manualmente...")
     print("Para isso, segure a tecla ctrl e clique no link:")
-    print("https://github.com/Furry-Random/Jonkler-exe/blob/main/README.md")
+    print("https://github.com/Furry-Random/Jonkler-exe/tree/main?tab=readme-ov-file#como-fechar-o-jonklerexe-x-hocho")
     
     #isso é pro usuário conseguir ler o resultado e abrir o link no terminal
     time.sleep(20)
