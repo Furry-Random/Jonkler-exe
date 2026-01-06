@@ -1,5 +1,8 @@
 # A joke virus about Jonkler brainrot.
 
+> [!Note]
+> [Clique aqui para ver como fechar o jonkler-exe manualmente!](#como-fechar-o-jonklerexe-x-hocho).
+
 ## Introdução :telescope:
 Esse programa se trata de um joke virus, (vírus de piada), feito com o único objetivo de assustar/irritar ou até mesmo divertir o usuário, ativando aleatoriamente enquanto o usuário utiliza o computador, inspirado no meme brainrot do Jonkler.
 
@@ -42,17 +45,6 @@ Tudo o que o programa faz pode ser revertido sem precisar de nenhum segredo ou q
 
 E caso você não saiba como usar o Gerenciador de Tarefas para encerrar um programa, tudo bem, eu te ensino abaixo como fazer isso, passo a passo [clicando aqui](#como-fechar-o-jonklerexe-x-hocho).
 
-## Como baixar e executar o código? :arrow_down:
-Como o código está em desenvolvimento, ele não está disponível pra download em **.exe** e nem em **.zip**, mas caso queira testar mesmo assim, então baixe os arquivos ```jonkler.py```, ```jonkler.jpg``` e o ```WHY_SO_SERIOUS.mp3``` e deixe eles na mesma pasta, após isso, abra o arquivo **.py** no vscode, (ou o editor de sua preferência) e execute.
-
-Lembrando que, você deve ter o Python e a biblioteca ```Pygame``` instalados no seu Windows, para baixar e instalar o Python [clique aqui](https://www.python.org/).
-
-Depois de ter o Python instalado, abra um terminal Powershell comum (não administrador) e digite o seguinte comando:
-
-```pip install Pygame```
-
-Por fim, aguarde a instalação.
-
 ## Possiveis erros de execução :x:
 Segundo alguns testes em outros computadores (Windows 11 e 10), o código pode ser bloqueado pelo **Microsoft Defender SmartScreen**, como exemplifica a imagem abaixo:
 
@@ -60,7 +52,7 @@ Segundo alguns testes em outros computadores (Windows 11 e 10), o código pode s
 
 _(e não, eu não sei o que fazer para esse erro parar de acontecer)_, mas se a opção estiver disponível, você pode clicar em ```Mais informações``` e depois em ```Executar assim mesmo```, assim o código vai ser executado.
 
-## Como fechar o jonkler.exe? :x: :hocho:
+## Como fechar o jonkler.exe :x: :hocho:
 Clique com o botão direito do mouse sobre a barra de tarefas e depois clique em ```Gerenciador de Tarefas```, **ou** aperte as teclas ```Ctrl``` + ```Shift``` + ```esc``` simultâneamente.
 
 Após isso, clique na aba ```Processos```, (é a 1° aba), e em ```Processos em Segundo Plano``` procure até encontrar pelo nome ```jonkler.exe```, (que é o nome do programa), para encerrar, clique em cima do nome ```jonkler.exe```, e depois clique em um botão chamado ```Finalizar tarefa```, esse botão está embaixo no Windows 10 e em cima no Windows 11.

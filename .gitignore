@@ -15,5 +15,14 @@ dist/
 #arquivo de workspace do vscode
 *.code-workspace
 
-#todo vilão precisa de um herói (e vice-versa), mas ele ainda não está pronto...
+#esse arquivo em específico não será lançado, pois o Windows por padrão não executa script Poweshell, mas o manterei comigo porquê pra mim é útil e funciona
 Batman.ps1
+
+#o "Changelog.md" ainda não está pronto, mas será lançado na 1° versão do software
+CHANGELOG.md
+
+#arquivos do Obsidian (editor de Markdown)
+.obsidian/
+
+#versão sem print no terminal do "jonkler.py"
+jonkler.pyw

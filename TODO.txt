@@ -1,11 +1,20 @@
 TODO:
 
-- Arrumar a frequência dele, eu quero que ele seja mais surpreendente (demorado), ou louco (rápido demais)?
+- Atualizar como baixar e executar o código no README.md
 
-- Faça mais testes com o software, pra ver a execução, se abre os arquivos bonitinhos e se o Batman.ps1
+- [NEW FEATURE]
+  Implementar um novo som, o do "rolas grandes hihihi, google buscar"
+  - teste setar o delay pra 20 e a condição de ativação para (dado = 3)
+  - ele pode abrir um link de uma pomba (ave) também, vê se dá pra fazer isso no CMD, de forma
+    análoga ao "Batman.py"
+
+- Compile o jonkler.exe como .pyw
+
+- Faça mais testes com o software, pra ver a execução, se abre os arquivos bonitinhos e se o Batman.py
   consegue operar dboa, peça pros seus amigos executarem
 
-- Revisar e alterar o README.md, ensinando o usuário a executar o batman e arrumando vários detalhes, como
-  o Dowload e tals
+- Revisar e alterar o README.md
 
-- Gerar o Dowload.zip pra galera, inclua o Batman.ps1 também
+- Fazer um Changelog.md, falando oq tem na 1° versão e pah, tem umas regrinhas pra isso
+
+- Gerar o Dowload.zip pra galera, inclua o "Batman.exe" e o "Changelog.md" também
