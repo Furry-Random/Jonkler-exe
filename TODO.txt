@@ -1,13 +1,5 @@
 TODO:
 
-- [NEW FEATURE]
-  Implementar um novo som, o do "rolas grandes hihihi, google buscar"
-  - teste setar o delay pra 20 e a condição de ativação para (dado = 3)
-  - ele pode abrir um link de uma pomba (ave) também, vê se dá pra fazer isso no CMD, de forma
-    análoga ao "Batman.py"
-
-- Compile o jonkler.exe como .pyw
-
 - Faça mais testes com o software, pra ver a execução, se abre os arquivos bonitinhos e se o Batman.py
   consegue operar dboa, peça pros seus amigos executarem
 

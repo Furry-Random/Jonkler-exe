@@ -10,8 +10,8 @@ try:
     subprocess.run(f"taskkill /F /IM {jonkler}", check=True, shell=True, capture_output=True)
 
     #diz pro usuário que o jonkler foi derrotado e agora ele está a salvo
-    print(f"O {jonkler} foi derrotado, mas você precisa fechar todas as imagens que ele abriu manualmente...")
-    time.sleep(8)
+    print(f"O {jonkler} foi derrotado, mas você precisa fechar todas as imagens e abas no navegador que ele abriu manualmente...")
+    time.sleep(10)
     print("E nem me adianta me olhar com essa cara, eu já fiz o trabalho sujo!")
     time.sleep(7)
 except subprocess.CalledProcessError as e:

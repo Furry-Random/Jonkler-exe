@@ -1,24 +1,37 @@
-import random   #pra gerar um número aleatório
-import pygame   #para executar o som/música (winsound não funcionou no meu note gamer)
-import time     #pro código jogar o dado de tempos em tempos
-import os       #pra abrir uma imagem no Windows (não acho que seja específica do Windows)
+import subprocess #para executar comandos do CMD
+import random     #pra gerar um número aleatório
+import pygame     #para executar o som/música (winsound não funcionou no meu note gamer)
+import time       #pro código jogar o dado de tempos em tempos
+import os         #pra abrir uma imagem no Windows (não acho que seja específica do Windows)
 
 #armazena o caminho do executável, da raíz até o diretório do .exe
 caminho = os.getcwd()
 
+#[MEMES GRINGOS]
 #armazena o jonkler.jpg
 classic_image = caminho + "\Assets\jonkler.jpg"
 #armazena o WHY_SO_SERIOUS.mp3
-audio_why = caminho + "\Assets\WHY_SO_SERIOUS.mp3"
+caminho_audio_why = caminho + "\Assets\WHY_SO_SERIOUS.mp3"
+
+#[MEMES BR]
+#armazena o jonkler_fotos.jpg
+jonkler_fotos = caminho + "\Assets\jonkler_fotos.jpg"
+#armazena o jonkler_fotos.mp3
+caminho_jonkler_fotos_audio = caminho + "\Assets\jonkler_fotos.mp3"
+
+#armazena os links de rolas (aves)
+rola_pg_wiki = "https://pt.wikipedia.org/wiki/Rolinha-roxa"
+imagem_rola_meme = "https://images7.memedroid.com/images/UPLOADED48/541f4901744a0.jpeg"
 
 #armazena o tempo entre um sorteio e outro (em segundos)
-delay = 10
+delay = 20
 
 #inicia o módulo de som do pygame
 pygame.mixer.init()
 
-#carrega o áudio na memória e atriubi a "why_so_serious"
-why_so_serious = pygame.mixer.Sound(audio_why)
+#carrega os áudios na memória
+audio_why = pygame.mixer.Sound(caminho_audio_why)
+jonkler_fotos_audio = pygame.mixer.Sound(caminho_jonkler_fotos_audio)
 
 #roda pra sempre
 while True:
@@ -26,19 +39,38 @@ while True:
     #gera o número aleatório entre 1 e 6
     dado = random.randint(1, 6)
 
-    #imprime pra ver qual número caiu
+    #[DEBUG] imprime pra ver qual número caiu
     print("O dado caiu em: ", dado)
     
-    #verifica se o dado caiu no 6
-    if dado == 6:
+    #verifica se o dado caiu no 3, toca meme BR
+    if dado == 3:
+        
+        #[DEBUG] pra ver se caiu no IF msm
+        print("Dado = 3, executando meme BR")
 
-        #debug pra ver se caiu no IF msm
-        print("Entrou no if HAHAHAHAHAHA")
+        #abre a imagem
+        os.startfile(jonkler_fotos)
+        #executa o áudio
+        jonkler_fotos_audio.play()
+        time.sleep(12)
+        
+        #abre o meme da rola (ave)
+        subprocess.run(f"start {imagem_rola_meme}", check=False, shell=True, capture_output=False)
+        #o usuário vai ver a rola (ave) primeiro, e depois vai ver a Wiki sobre rolas roxas 
+        time.sleep(5)
+        #abre a página da Wiki sobre a ave "rolinha roxa"
+        subprocess.run(f"start {rola_pg_wiki}", check=False, shell=True, capture_output=False)
+    
+    #verifica se o dado caiu no 6, toca meme gringo
+    elif dado == 6:
+
+        #[DEBUG] pra ver se caiu no IF msm
+        print("Dado = 6, executando meme gringo")
 
         #abre a imagem
         os.startfile(classic_image)
         #executa o áudio
-        why_so_serious.play()
-    
+        audio_why.play()
+
     #espera "delay" segundos
     time.sleep(delay)
