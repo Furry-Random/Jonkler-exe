@@ -1,7 +1,5 @@
 TODO:
 
-- Atualizar como baixar e executar o código no README.md
-
 - [NEW FEATURE]
   Implementar um novo som, o do "rolas grandes hihihi, google buscar"
   - teste setar o delay pra 20 e a condição de ativação para (dado = 3)

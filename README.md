@@ -39,7 +39,6 @@ Quanto mais tempo o programa rodar, mais imagens ele vai abrir.
 ## Atenção :warning:
 Tudo o que o programa faz pode ser revertido sem precisar de nenhum segredo ou qualquer habilidade de _um grande mago que anda pra cima e para baixo com seus pergaminhos_, tudo o que você precisa saber é como fechar janelas e como abrir o gerenciador de tarefas para encerrar o programa.
 
-
 > [!WARNING]
 > <mark>**Mesmo que o programa seja inofensivo, eu não me responsabilizo por qualquer danos causados ao seu computador ou de outras pessoas.**</mark>
 
