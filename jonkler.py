@@ -19,9 +19,10 @@ jonkler_fotos = caminho + "\Assets\jonkler_fotos.jpg"
 #armazena o jonkler_fotos.mp3
 caminho_jonkler_fotos_audio = caminho + "\Assets\jonkler_fotos.mp3"
 
-#armazena os links de rolas (aves)
+#armazena os links
 rola_pg_wiki = "https://pt.wikipedia.org/wiki/Rolinha-roxa"
 imagem_rola_meme = "https://images7.memedroid.com/images/UPLOADED48/541f4901744a0.jpeg"
+joker_gif = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDR1cGt3OWFkanc3YmJ3MXUzejk1NnJzZnF6Nnl0dXVzZXJocXdyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dYPRVPUqkpzYQ/giphy.gif"
 
 #armazena o tempo entre um sorteio e outro (em segundos)
 delay = 20
@@ -52,7 +53,7 @@ while True:
         os.startfile(jonkler_fotos)
         #executa o áudio
         jonkler_fotos_audio.play()
-        time.sleep(12)
+        time.sleep(13)
         
         #abre o meme da rola (ave)
         subprocess.run(f"start {imagem_rola_meme}", check=False, shell=True, capture_output=False)
@@ -71,6 +72,10 @@ while True:
         os.startfile(classic_image)
         #executa o áudio
         audio_why.play()
+        time.sleep(7)
 
+        #abre um gif do filme do joker, (qual? não sei, eu não ví o filme...)
+        subprocess.run(f"start {joker_gif}", check=False, shell=True, capture_output=False)
+    
     #espera "delay" segundos
     time.sleep(delay)

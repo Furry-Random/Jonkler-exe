@@ -34,7 +34,7 @@ Quanto mais tempo o programa rodar, mais imagens ele vai abrir.
 
 ![jonkler-area-de-trabalho](readme_assets/jonkler-area-de-trabalho.png)
 
-![Gerenciador-de-Tarefas](readme_assets/Gerenciador-de-Tarefas.png)
+![Gerenciador-de-Tarefas](readme_assets/Gerenciador-de-Tarefas-VM.png)
 
 ## Atenção :warning:
 Tudo o que o programa faz pode ser revertido sem precisar de nenhum segredo ou qualquer habilidade de _um grande mago que anda pra cima e para baixo com seus pergaminhos_, tudo o que você precisa saber é como fechar janelas e como abrir o gerenciador de tarefas para encerrar o programa.

@@ -1,8 +1,5 @@
 TODO:
 
-- Faça mais testes com o software, pra ver a execução, se abre os arquivos bonitinhos e se o Batman.py
-  consegue operar dboa, peça pros seus amigos executarem
-
 - Revisar e alterar o README.md
 
 - Fazer um Changelog.md, falando oq tem na 1° versão e pah, tem umas regrinhas pra isso

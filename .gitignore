@@ -29,3 +29,12 @@ jonkler.pyw
 
 #arquivo.py para realizar o teste de abrir links pelo CMD
 rolas.py
+
+#arquivo de testes, pra ver se eu consigo usar Powershell ao invés de CMD
+comando_powershell.py
+
+#arquivo temporário do Libre Office Calc
+*.ods#
+
+#Tabela Verdade Batman.exe
+Batman - Tabela Verdade.ods

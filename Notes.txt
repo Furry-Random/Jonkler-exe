@@ -1,0 +1,30 @@
+Notas pessoais, o que eu descobri executando o código em uma VM com Windows 11, (agora eu tenho uma VM!)
+
+- [1][NOTA] O código quando é baixado pela internet é barrado pelo Windows Defender Smartscreen, exibindo o aviso
+de que pode ser perigoso, mas se você clicar em "Mais Informações" e depois em "Executar mesmo assim", 
+ele não exibe mais o aviso quando é executado pela 2° vez, mesmo após reiniar.
+
+    - [1.1][NOTA] O Batman.exe também sofre com o "quase barramento" do Windows Defender Smartscreen.
+
+- [2][NOTA] Versão 0.0.6 funcionando bem
+
+- [3][RESOLVIDO EM 3.4] A pasta "jonkler-virus" fica impedida de ser deletada, pois após a execução, onde ele abre as imagens
+e os sons, ele diz que a pasta está sendo usada, mas se esperar um tempinho, dá pra deletar ela sem
+problemas, preciso executar de novo e ver os "identificadores associados", monitor de recursos, aba CPU.
+
+    - [3.1] Aparentemente, quando tudo é fechado, (imagens e os .EXEs), fica um processo chamado "Photos.exe"
+    rodando, (caso o visualizador de .jgp que vc use seja o Fotos da Microsoft também), ele
+    eventualmente some depois de uns minutos, mas ele impede nesse meio tempo que a pasta seja
+    apagada, e sobre isso eu não possuo controle, sinto muito...
+
+    - [3.2] Eu realmente não tenho controle sobre isso, pois tem vezes que fica 1 processo aberto e tem
+    vezes que ele fecha bonitinho, e não impede de apagar a pasta, o comportamento é aleatório, e 
+    depende do humor do Windows e das suas aplicações, kkkkkkkkkkkkkkkkkkkkkkkkkk
+
+        - [3.3] Vou testar pra ver se o comando "taskkill" consegue fechar TODOS os processos do "Photos", se
+        sim, então eu vou implementar no "Batman.exe".
+
+        - [3.4][FEITO!] taskkill funciona! Implemente ele no Batman.py
+
+- [4][NOTA] Pensei eu fazer o batman funcionar usando comandos do Windows Powershell, mas isso estava dando muito trabalho, então
+  deixei usando comandos do CMD mesmo.
