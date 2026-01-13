@@ -2,6 +2,10 @@ TODO:
 
 - Revisar e alterar o README.md
 
+- Revise os erros de português no README.md
+
 - Fazer um Changelog.md, falando oq tem na 1° versão e pah, tem umas regrinhas pra isso
+
+- Ensinar como baixar, "Vá em ```Releases``` e baixe a versão "stable", piriri, póroró
 
 - Gerar o Dowload.zip pra galera, inclua o "Batman.exe" e o "Changelog.md" também
