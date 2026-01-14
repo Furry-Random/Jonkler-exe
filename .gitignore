@@ -4,37 +4,21 @@
 #pasta do pyinstaller, ele gera essa pasta, mas não sei o que ela faz
 build/
 
+#arquivos do Obsidian (editor de Markdown)
+.obsidian/
+
 #pasta do pyinstaller, ele compila o código e salva ele dentro da pasta "dist", dentro dela tem a imagem e o áudio também
 dist/
 
 #contém o programa, a imagem e a áudio, mas não vou liberar pra download ainda, tem muita coisa pra arrumar primeiro
 *.zip
-*.rar
 *.exe
 
 #arquivo de workspace do vscode
 *.code-workspace
 
-#esse arquivo em específico não será lançado, pois o Windows por padrão não executa script Poweshell, mas o manterei comigo porquê pra mim é útil e funciona
-Batman.ps1
-
 #o "Changelog.md" ainda não está pronto, mas será lançado na 1° versão do software
 CHANGELOG.md
 
-#arquivos do Obsidian (editor de Markdown)
-.obsidian/
-
 #versão sem print no terminal do "jonkler.py"
 jonkler.pyw
-
-#arquivo.py para realizar o teste de abrir links pelo CMD
-rolas.py
-
-#arquivo de testes, pra ver se eu consigo usar Powershell ao invés de CMD
-comando_powershell.py
-
-#arquivo temporário do Libre Office Calc
-*.ods#
-
-#Tabela Verdade Batman.exe
-Batman - Tabela Verdade.ods
