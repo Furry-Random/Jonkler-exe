@@ -24,8 +24,9 @@ rola_pg_wiki = "https://pt.wikipedia.org/wiki/Rolinha-roxa"
 imagem_rola_meme = "https://images7.memedroid.com/images/UPLOADED48/541f4901744a0.jpeg"
 joker_gif = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDR1cGt3OWFkanc3YmJ3MXUzejk1NnJzZnF6Nnl0dXVzZXJocXdyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dYPRVPUqkpzYQ/giphy.gif"
 
-#armazena o tempo entre um sorteio e outro (em segundos)
-delay = 20
+#armazena o tempo do delay inicial e o delay entre um sorteio e outro (em segundos)
+delay_inicial = random.randint(1800, 5400) #entre 30min e 1h30min
+delay = 5
 
 #inicia o módulo de som do pygame
 pygame.mixer.init()
@@ -33,6 +34,10 @@ pygame.mixer.init()
 #carrega os áudios na memória
 audio_why = pygame.mixer.Sound(caminho_audio_why)
 jonkler_fotos_audio = pygame.mixer.Sound(caminho_jonkler_fotos_audio)
+
+#delay inicial, para o usuário esquecer que abriu o programa e se assustar com a ativação
+print("Valor do delay_inicial: ", delay_inicial)
+time.sleep(delay_inicial)
 
 #roda pra sempre
 while True:

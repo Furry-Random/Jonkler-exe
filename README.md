@@ -13,7 +13,9 @@ Os softwares funciona nos seguintes sistemas operacionais:
 
 ## Funcionamento 
 ### (jonkler.exe) :game_die: :black_joker:
-Ele inicia um **loop infinito**, onde ele atribui a variável ```dado``` um número aleatório entre 1 a 6 através da função ```random.randint(1, 6)```, após isso, ele verifica:
+Ele inicialmente faz absolutamente nada por um tempo que varia de 30 minutos a 1 hora e meia, isso serve para capturar o usuário de surpresa, pois esse tempo é suficiente pro usuário esquecer que abriu o programa.
+
+Após isso, ele inicia um **loop infinito**, onde ele atribui a variável ```dado``` um número aleatório entre 1 a 6 através da função ```random.randint(1, 6)```, após isso, ele verifica:
 
 - Se ```dado``` for igual a ```3```, então ele abre uma imagem, toca um áudio relacionado a imagem, abre um meme de uma pomba (a ave) e a página da Wikipédia sobre rolas-roxas, (a ave, é claro), depois ele espera alguns segundos e sorteia mais um número aleatório.
 
@@ -21,7 +23,7 @@ Ele inicia um **loop infinito**, onde ele atribui a variável ```dado``` um núm
 
 - Caso ```dado``` não seja igual a ```3``` ou a ```6```, então ele não faz nada, apenas espera alguns segundos e repete o loop.
 
-O tempo de espera entre os lançamentos do dado é configurado na variável ```delay```, e no momento ```delay``` é igual a ```20```. Isso dá + ou - 1 ativação por minuto.
+O tempo de espera entre os lançamentos do dado é configurado na variável ```delay```, e no momento ```delay``` é igual a ```5```, (criando um caos _levemente controlado_).
 
 Tudo isso operando em **segundo plano**.
 
@@ -61,8 +63,9 @@ Tudo o que o programa faz pode ser revertido sem nenhum segredo, _ou qualquer ha
 > <mark>**Mesmo que o programa seja inofensivo, eu não me responsabilizo por quaisquer danos causados ao seu computador ou de terceiros.**</mark>
 
 ## Como executar o jonkler.exe? :arrow_forward: :black_joker:
+Clique em **"Releases"**, na lateral direita do repositório, escolha a versão "Stable" mais recente e clique no ```jonkler-virus.zip```, e então aguarde o download.
 
-Após extrair os arquivos, abra a pasta ```jonkler-virus``` e execute o ```jonkler.exe```, não precisa abrir como Administrador.
+Faça a extração dos arquivos, abra a pasta ```jonkler-virus``` e execute o ```jonkler.exe```, não precisa abrir como Administrador.
 
 ## Possivel erro de execução :x:
 Segundo testes em outros computadores (Windows 10 e 11), o jonkler.exe e o Batman.exe são bloqueados pelo **Microsoft Defender SmartScreen**, como exemplifica a imagem abaixo:
