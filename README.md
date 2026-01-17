@@ -23,7 +23,7 @@ Após isso, ele inicia um **loop infinito**, onde ele atribui a variável ```dad
 
 - Caso ```dado``` não seja igual a ```3``` ou a ```6```, então ele não faz nada, apenas espera alguns segundos e repete o loop.
 
-O tempo de espera entre os lançamentos do dado é configurado na variável ```delay```, e no momento ```delay``` é igual a ```5```, (criando um caos _levemente controlado_).
+O tempo de espera entre os lançamentos do dado é configurado na variável ```delay```, e no momento ```delay``` é igual a ```5```, (criando um _caos controlado_, para que o usuário tenha a chance de executar o Batman.exe).
 
 Tudo isso operando em **segundo plano**.
 

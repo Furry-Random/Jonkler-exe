@@ -17,8 +17,5 @@ dist/
 #arquivo de workspace do vscode
 *.code-workspace
 
-#o "Changelog.md" ainda não está pronto, mas será lançado na 1° versão do software
-CHANGELOG.md
-
 #versão sem print no terminal do "jonkler.py"
 jonkler.pyw

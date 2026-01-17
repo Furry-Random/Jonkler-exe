@@ -6,7 +6,7 @@ ele não exibe mais o aviso quando é executado pela 2° vez, mesmo após reinia
 
     - [1.1][NOTA] O Batman.exe também sofre com o "quase barramento" do Windows Defender Smartscreen.
 
-- [2][NOTA] Versão 0.0.7 funcionando bem
+- [2][NOTA] Versão 0.0.8 funcionando bem
 
 - [3][RESOLVIDO EM 3.4] A pasta "jonkler-virus" fica impedida de ser deletada, pois após a execução, onde ele abre as imagens
 e os sons, ele diz que a pasta está sendo usada, mas se esperar um tempinho, dá pra deletar ela sem
