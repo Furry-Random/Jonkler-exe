@@ -63,7 +63,7 @@ Tudo o que o programa faz pode ser revertido sem nenhum segredo, _ou qualquer ha
 > <mark>**Mesmo que o programa seja inofensivo, eu não me responsabilizo por quaisquer danos causados ao seu computador ou de terceiros.**</mark>
 
 ## Como executar o jonkler.exe? :arrow_forward: :black_joker:
-Clique em **"Releases"**, na lateral direita do repositório, escolha a versão "Stable" mais recente e clique no ```jonkler-virus.zip```, e então aguarde o download.
+Clique em **"Releases"**, na lateral direita do repositório, escolha a versão "Latest", (mais recente), e clique no ```jonkler-virus.zip```, e então aguarde o download.
 
 Faça a extração dos arquivos, abra a pasta ```jonkler-virus``` e execute o ```jonkler.exe```, não precisa abrir como Administrador.
 
